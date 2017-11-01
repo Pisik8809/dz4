@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic-tac-toe</title>
+    <style>
+    .wrapper {
+      max-width: 200px;
+      height: 200px;
+      margin: 200px auto;
+    }
+    .field {
+    width: 60px;
+    box-sizing: border-box;
+    background: rgba(35, 255, 15, 0.5);
+    height: 60px;
+    border: 2px solid black;
+    display: inline-block;
+    color: black;
+    font-size: 14px;
+    position: relative;
+    }
+    p {
+      position: absolute; top: 7px; left: 20px;
+    }
+    .done {
+      width: 60px;
+      box-sizing: border-box;
+      background: rgba(255, 0, 15, 0.5);
+      height: 60px;
+      border: 2px solid black;
+      display: inline-block;
+      position: relative;
+    }
+    .comp {
+      width: 60px;
+      box-sizing: border-box;
+      background: rgba(0, 0, 255, 0.5);
+      height: 60px;
+      border: 2px solid black;
+      display: inline-block;
+      position: relative;
+    }
+    </style>
+  </head>
+  <body>
+    <script>
+    alert('У тебя 10 секунд, что бы походить!');
+    </script>
+    <section class="wrapper">
+      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
+      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
+      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
+      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
+      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
+      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
+      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
+      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
+      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
+    </section>
+    <script src="tic-tac-toe.js"></script>
+  </body>
+</html>
