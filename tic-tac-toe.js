@@ -11,4 +11,7 @@ var count = setTimeout(function autoHod() {
   comp[rand].setAttribute('class', 'comp');
 }());
 count = setTimeout(autoHod, 8000);
+if (comp.length == 0) {
+  alert('Игра окончена!')
+}
 }, 0);
