@@ -11,4 +11,4 @@ var count = setTimeout(function autoHod() {
   comp[rand].setAttribute('class', 'comp');
 }());
 count = setTimeout(autoHod, 8000);
-}, 2000);
+}, 0);

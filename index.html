@@ -45,19 +45,21 @@
   </head>
   <body>
     <script>
-    alert('У тебя 10 секунд, что бы походить!');
+    alert('У тебя 8 секунд, что бы походить!');
     </script>
     <section class="wrapper">
-      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
-      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
-      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
-      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
-      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
-      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
-      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
-      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
-      <div class="field" onclick="this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done')"></div>
+      <div class="field" onclick="if(this.classList.contains('field')) {this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done');} else {return;}"></div>
+      <div class="field" onclick="if(this.classList.contains('field')) {this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done');} else {return;}"></div>
+      <div class="field" onclick="if(this.classList.contains('field')) {this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done');} else {return;}"></div>
+      <div class="field" onclick="if(this.classList.contains('field')) {this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done');} else {return;}"></div>
+      <div class="field" onclick="if(this.classList.contains('field')) {this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done');} else {return;}"></div>
+      <div class="field" onclick="if(this.classList.contains('field')) {this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done');} else {return;}"></div>
+      <div class="field" onclick="if(this.classList.contains('field')) {this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done');} else {return;}"></div>
+      <div class="field" onclick="if(this.classList.contains('field')) {this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done');} else {return;}"></div>
+      <div class="field" onclick="if(this.classList.contains('field')) {this.innerHTML += '<p>X</p>'; this.setAttribute('class', 'done');} else {return;}"></div>
     </section>
+    <script>
+  </script>
     <script src="tic-tac-toe.js"></script>
   </body>
 </html>
